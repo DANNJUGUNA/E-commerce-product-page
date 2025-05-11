@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    margin: auto;
+}
+.wraper{
+    /* margin: 24px; */
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu> ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .right> .avatar{
+    width: 12px;
+    height: 12px;
+} */
