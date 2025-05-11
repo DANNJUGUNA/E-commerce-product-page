@@ -30,3 +30,14 @@ body{
     gap:30px;
     align-content: center;
 }
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+.right> .avatar>img{
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+}
